@@ -1,0 +1,22 @@
+<?php
+require_once '../../config/koneksi.php';
+require_once '../AuthController.php';
+
+$authController = new AuthController();
+$authController->requireLogin('../../panel-pengelola/login.php?error=unauthorized');
+
+if (isset($_GET['id'])) {
+    $id = (int)$_GET['id'];
+    
+    $stmt = $conn->prepare("DELETE FROM ulasan WHERE id = ?");
+    $stmt->bind_param("i", $id);
+    
+    if ($stmt->execute()) {
+        header("Location: ../../panel-pengelola/ulasan.php?success=deleted");
+    } else {
+        header("Location: ../../panel-pengelola/ulasan.php?error=delete_failed");
+    }
+} else {
+    header("Location: ../../panel-pengelola/ulasan.php");
+}
+?>

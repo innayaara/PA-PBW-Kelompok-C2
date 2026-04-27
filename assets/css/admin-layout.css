@@ -1,0 +1,124 @@
+.admin-layout-page {
+  min-height: 100vh;
+  background: var(--cream);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+  width: 270px;
+  background: linear-gradient(180deg, var(--forest), var(--forest-dark));
+  color: var(--white);
+  padding: 28px 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-shadow: 8px 0 30px rgba(0, 0, 0, 0.12);
+}
+
+.admin-sidebar-brand {
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.admin-sidebar-brand h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--white);
+}
+
+.admin-sidebar-brand h2 span {
+  color: var(--dawn);
+}
+
+.admin-sidebar-brand p {
+  margin: 6px 0 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.admin-sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 14px;
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.admin-sidebar-link i {
+  width: 20px;
+  text-align: center;
+}
+
+.admin-sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--white);
+}
+
+.admin-sidebar-link.active {
+  background: var(--dawn);
+  color: var(--white);
+  box-shadow: 0 10px 25px rgba(232, 155, 58, 0.25);
+}
+
+.admin-sidebar-link.logout-link {
+  margin-top: 10px;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 36px;
+}
+
+.admin-page-header {
+  margin-bottom: 28px;
+}
+
+.admin-page-title {
+  color: var(--forest);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.admin-page-subtitle {
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .admin-layout {
+    flex-direction: column;
+  }
+
+  .admin-sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 0 0 18px 18px;
+  }
+
+  .admin-main {
+    padding: 24px;
+  }
+}

@@ -1,0 +1,220 @@
+.eticket-page {
+  background: var(--forest-dark);
+  font-family: 'DM Sans', sans-serif;
+  padding: 40px 0;
+  color: #333;
+}
+
+.eticket-page .ticket-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.eticket-page .ticket-header {
+  background: var(--forest);
+  color: var(--white);
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.eticket-page .ticket-header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.eticket-page .ticket-header p {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.eticket-page .ticket-leaf {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 1.5rem;
+  opacity: 0.2;
+}
+
+.eticket-page .ticket-body {
+  padding: 30px;
+  position: relative;
+}
+
+.eticket-page .ticket-body::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background: repeating-linear-gradient(
+    to right,
+    #ddd 0,
+    #ddd 5px,
+    transparent 5px,
+    transparent 10px
+  );
+}
+
+.eticket-page .ticket-info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.eticket-page .ticket-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.eticket-page .ticket-value {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.eticket-page .ticket-code {
+  background: var(--cream);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+  border: 2px dashed #ddd;
+}
+
+.eticket-page .ticket-code span {
+  display: block;
+  font-size: 0.7rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.eticket-page .ticket-code strong {
+  font-size: 1.8rem;
+  color: var(--forest);
+  letter-spacing: 5px;
+}
+
+.eticket-page .qr-placeholder {
+  width: 120px;
+  height: 120px;
+  background: #eee;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.eticket-page .qr-placeholder i {
+  font-size: 3rem;
+  color: #ccc;
+}
+
+.eticket-page .ticket-total-wrap {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.eticket-page .ticket-total {
+  color: var(--forest);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.eticket-page .ticket-note {
+  font-size: 0.7rem;
+  color: #999;
+  margin-top: 5px;
+}
+
+.eticket-page .ticket-footer {
+  background: #fdfdfd;
+  padding: 20px 30px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.eticket-page .btn-print {
+  background: var(--dawn);
+  color: var(--white);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.eticket-page .btn-print:hover {
+  background: var(--dawn-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.eticket-page .nav-btns {
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.eticket-page .nav-btns a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.eticket-page .nav-btns a:hover {
+  color: var(--white);
+}
+
+@media (max-width: 576px) {
+  .eticket-page .ticket-info-row {
+    flex-direction: column;
+  }
+
+  .eticket-page .nav-btns {
+    flex-direction: column;
+  }
+
+  .eticket-page .ticket-code strong {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media print {
+  .eticket-page {
+    background: var(--white);
+    padding: 0;
+  }
+
+  .eticket-page .nav-btns,
+  .eticket-page .btn-print {
+    display: none;
+  }
+
+  .eticket-page .ticket-container {
+    box-shadow: none;
+    border: 1px solid #eee;
+  }
+}
