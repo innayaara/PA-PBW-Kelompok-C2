@@ -152,7 +152,6 @@ Pusat pengelolaan data website secara terintegrasi.
 # 🔄 Alur Sistem Website
 
 <details>
-<summary>📌 Klik untuk melihat alur sistem</summary>
 
 <br>
 
