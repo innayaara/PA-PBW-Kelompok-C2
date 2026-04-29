@@ -20,11 +20,11 @@
 
 ## Tentang Project
 
-**Bukit Fajar Lestari** adalah website promosi dan informasi wisata yang dikembangkan untuk membantu pengunjung mendapatkan informasi mengenai destinasi wisata, galeri, ulasan, kontak pengelola, serta layanan pemesanan tiket secara online.
+Bukit Fajar Lestari adalah website promosi dan informasi wisata yang dikembangkan untuk membantu pengunjung mendapatkan informasi mengenai destinasi wisata, galeri, ulasan, kontak pengelola, serta layanan pemesanan tiket secara online.
 
-Website ini dibuat untuk mendukung pengelolaan informasi wisata Bukit Fajar Lestari yang berada di **Tenggarong Seberang, Kutai Kartanegara, Kalimantan Timur**. Melalui website ini, informasi wisata dapat disajikan secara lebih rapi, terpusat, dan mudah diakses oleh calon pengunjung.
+Website ini dibuat untuk mendukung pengelolaan informasi wisata Bukit Fajar Lestari yang berada di Tenggarong Seberang, Kutai Kartanegara, Kalimantan Timur. Melalui website ini, informasi wisata dapat disajikan secara lebih rapi, terpusat, dan mudah diakses oleh calon pengunjung.
 
-Selain untuk pengunjung, website ini juga menyediakan **panel admin** yang digunakan untuk mengelola data wisata, galeri, booking, ulasan, hari libur, dan pengaturan tampilan website.
+Selain untuk pengunjung, website ini juga menyediakan panel admin yang digunakan untuk mengelola data wisata, galeri, booking, ulasan, hari libur, dan pengaturan tampilan website.
 
 ---
 
@@ -219,7 +219,7 @@ PA-PBW-Kelompok-C2/
 | Vue.js | Membantu interaksi dinamis pada form booking |
 | Bootstrap | Membantu styling dan layout pada halaman admin |
 | phpMyAdmin | Mengelola database secara lokal |
-| Laragon / XAMPP | Menjalankan project di localhost |
+| Laragon | Menjalankan project di localhost |
 | InfinityFree | Hosting website |
 
 ---
@@ -356,4 +356,4 @@ Beberapa hal yang perlu diperhatikan saat project diunggah ke hosting:
 
 ## Status Project
 
-Project ini dikembangkan sebagai bagian dari tugas **Pemrograman Berbasis Web**. Website dibuat untuk membantu promosi digital dan pengelolaan informasi wisata Bukit Fajar Lestari secara lebih terstruktur.
+Project ini dikembangkan sebagai bagian dari tugas Pemrograman Berbasis Web. Website dibuat untuk membantu promosi digital dan pengelolaan informasi wisata Bukit Fajar Lestari secara lebih terstruktur.
