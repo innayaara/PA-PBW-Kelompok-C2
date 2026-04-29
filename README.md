@@ -326,12 +326,12 @@ atau sesuaikan dengan nama folder project yang digunakan.
 
 ## 🔐 Kredensial Login Admin (Demo Lokal)
 
-Gunakan kredensial berikut untuk mencoba fitur admin pada **Panel Pengelola**:
+Gunakan akun admin demo yang tersedia pada database lokal setelah proses import.
 
 ```txt
 URL      : http://localhost/PA-PBW-Kelompok-C2/panel-pengelola/login.php
 Username : admin
-Password : admin123
+Password : sesuaikan dengan data admin pada database demo
 ```
 
 > Catatan: Kredensial di atas hanya digunakan untuk kebutuhan demo lokal. Untuk penggunaan pada hosting atau deployment, username dan password admin wajib diganti agar lebih aman.
