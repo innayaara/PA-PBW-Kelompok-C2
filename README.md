@@ -152,7 +152,7 @@ Pusat pengelolaan data website secara terintegrasi.
 # 🔄 Alur Sistem Website
 
 <details>
-
+<summary>📌 Alur Sistem</summary>
 <br>
 
 1. Pengunjung membuka website  
