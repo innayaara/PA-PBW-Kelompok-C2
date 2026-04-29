@@ -18,6 +18,14 @@
 
 ---
 
+## Link Website
+
+Website dapat diakses melalui link berikut:
+
+[https://bukitfajarlestari.infinityfreeapp.com/](https://bukitfajarlestari.infinityfreeapp.com/)
+
+---
+
 ## Tentang Project
 
 Bukit Fajar Lestari adalah website promosi dan informasi wisata yang dikembangkan untuk membantu pengunjung mendapatkan informasi mengenai destinasi wisata, galeri, ulasan, kontak pengelola, serta layanan pemesanan tiket secara online.
