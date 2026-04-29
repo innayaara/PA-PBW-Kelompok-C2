@@ -357,11 +357,3 @@ Beberapa hal yang perlu diperhatikan saat project diunggah ke hosting:
 ## Status Project
 
 Project ini dikembangkan sebagai bagian dari tugas **Pemrograman Berbasis Web**. Website dibuat untuk membantu promosi digital dan pengelolaan informasi wisata Bukit Fajar Lestari secara lebih terstruktur.
-
----
-
-## Tim Pengembang
-
-PA-PBW-Kelompok-C2  
-Program Studi Sistem Informasi  
-Universitas Mulawarman
