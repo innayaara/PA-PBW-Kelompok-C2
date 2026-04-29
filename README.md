@@ -210,16 +210,21 @@ Pusat pengelolaan data website secara terintegrasi.
 Aplikasi ini dibangun menggunakan arsitektur *MVC (Model-View-Controller)* menggunakan PHP Native. 
 
 ### Front-End
-- HTML5  
-- CSS3  
-- JavaScript (dengan Vanilla JS & Vue.js ringan)
-- Bootstrap (untuk panel admin)
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Vue.js
 
 ### Back-End
-- PHP Native (Versi 8.x)
+- PHP Native
+- MySQL
 
-### Database
-- MySQL  
+### Tools
+- phpMyAdmin
+- Laragon 
+- GitHub
+- InfinityFree
 
 ---
 
