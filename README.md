@@ -132,6 +132,10 @@ Pengunjung dapat mengecek kembali pemesanan menggunakan kode booking dan nomor W
 
 <br>
 
+<div align="center">
+<img width="1916" height="852" alt="image" src="https://github.com/user-attachments/assets/73277baf-194f-4cec-9edc-dde65c7b3c91" />
+</div>
+
 ### Ulasan Pengunjung
 
 Fitur ulasan digunakan untuk menampung pengalaman pengunjung. Ulasan yang dikirim akan masuk ke panel admin terlebih dahulu dan hanya tampil di website setelah disetujui oleh admin.
