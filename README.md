@@ -1,6 +1,7 @@
+## PA-PBW-Kelompok-C2
+
 <div align="center">
 
-# 🌿 Proyek Akhir PBW  
 ### 🌄 Bukit Fajar Lestari  
 ### 🌐 Website Promosi dan Informasi Wisata
 
