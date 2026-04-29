@@ -1,57 +1,213 @@
-# PA-PBW
+<div align="center">
 
-# 🌿 Bukit Fajar Lestari — Sistem Informasi Wisata Berbasis Web
+# 🌿 Proyek Akhir PBW  
+### 🌄 Bukit Fajar Lestari  
+### 🌐 Website Promosi dan Informasi Wisata
 
-<p align="center">
-  <b>Platform digital untuk promosi wisata, dan layanan pemesanan tiket secara online.</b>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D2E,50:1F7A5C,100:A3D977&height=190&section=header&text=Bukit%20Fajar%20Lestari&fontSize=30&fontColor=ffffff" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-Native-blue?logo=php" />
-  <img src="https://img.shields.io/badge/MySQL-Database-orange?logo=mysql" />
-  <img src="https://img.shields.io/badge/Platform-Web-brightgreen?logo=googlechrome" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
-</p>
+<br>
+
+![HTML](https://img.shields.io/badge/Frontend-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/Style-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/Backend-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+</div>
+
+---
+
+# 👥 Identitas Kelompok
+
+<div align="center">
+
+| No | Nama Anggota | NIM |
+|----|--------------|-----|
+| 1 | Raihan Fariz N | 2409116083 |
+| 2 | Indah Maramin Al Inayah | 2409116086 |
+| 3 | Rizky Yunia Surono | 2409116089 |
+| 4 | Muhammad Romadhoni Alfatih | 2409116104 |
+| 5 | Muhamad Irpan Santoso | 2409116119 |
+
+</div>
 
 ---
 
 ## 🌍 Deskripsi Aplikasi
 
-**Bukit Fajar Lestari** adalah sistem informasi wisata berbasis web yang dikembangkan untuk mendukung promosi digital serta pengelolaan data wisata secara terpusat. Website ini dirancang sebagai solusi atas keterbatasan akses informasi terkait destinasi wisata Bukit Fajar Lestari yang berada di Tenggarong, Kutai Kartanegara. Melalui platform ini, masyarakat dapat memperoleh informasi lengkap mengenai objek wisata, fasilitas, galeri, testimoni, serta melakukan pemesanan tiket secara online.
+**Bukit Fajar Lestari** adalah sistem informasi wisata berbasis web yang dikembangkan untuk mendukung promosi digital serta pengelolaan data wisata secara terpusat. Website ini dirancang sebagai solusi atas keterbatasan akses informasi terkait destinasi wisata Bukit Fajar Lestari yang berada di Tenggarong, Kutai Kartanegara. Website ini hadir sebagai solusi atas keterbatasan akses informasi mengenai objek wisata Bukit Fajar Lestari. Sebelumnya, informasi wisata masih tersebar dan belum terpusat, sehingga calon pengunjung kesulitan memperoleh detail lengkap terkait destinasi, fasilitas, harga tiket, dan layanan pemesanan.
+Melalui website ini, pengunjung dapat mengakses informasi wisata, melihat galeri, membaca testimoni, melakukan booking tiket, serta memperoleh kontak pengelola.  
 
-Dengan adanya website ini, Bukit Fajar Lestari dapat memperluas jangkauan promosi, meningkatkan eksposur wisata, dan mendukung transformasi digital sektor pariwisata lokal.
-
----
-
-## ✨ Fitur Website
-
-### 👥 Pengunjung
-| Fitur | Keterangan |
-|---|---|
-| Informasi Wisata | Menampilkan detail objek wisata, fasilitas, dan daya tarik |
-| Galeri Foto | Dokumentasi visual destinasi wisata |
-| Testimoni | Ulasan dan pengalaman pengunjung |
-| Pesan Tiket | Pemesanan tiket secara online |
-| Cek Booking | Memeriksa status pemesanan tiket |
-| Kontak | Informasi komunikasi dan lokasi |
+Di sisi lain, admin dapat mengelola seluruh konten website melalui dashboard khusus. Website dilengkapi dengan **panel admin** yang memudahkan pengaturan konten, data wisata, galeri, serta data booking secara lebih efektif dan efisien.
 
 ---
 
-### 🔧 Admin
-| Fitur | Keterangan |
-|---|---|
-| Login Admin | Sistem autentikasi untuk pengelola |
-| Dashboard | Ringkasan data pengelolaan website |
-| Kelola Wisata | CRUD data objek wisata |
-| Kelola Galeri | Menambah / menghapus dokumentasi |
-| Kelola Booking | Memantau dan mengatur data pemesanan |
-| Kelola Konten | Update informasi website secara real-time |
+# 🚀 Fitur Website
+
+<details>
+<summary>🏠 1. Halaman Beranda</summary>
+
+<br>
+
+<div align="center">
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/a6026e2b-4969-4b18-a00d-c86876b4a029" />
+</div>
+
+### Halaman Beranda
+
+Halaman awal website yang menampilkan identitas utama Bukit Fajar Lestari, deskripsi singkat, serta navigasi menuju fitur lainnya.
+
+</details>
 
 ---
+
+<details>
+<summary>🌄 2. Halaman Wisata</summary>
+
+<br>
+
+<div align="center">
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/3eb87bff-e943-48a1-8adf-5325028b9b1b" />
+</div>
+
+### Halaman Wisata
+
+Menampilkan informasi destinasi, fasilitas, serta daya tarik utama yang tersedia di Bukit Fajar Lestari.
+
+</details>
+
+---
+
+<details>
+<summary>🖼️ 3. Galeri Wisata</summary>
+
+<br>
+
+<div align="center">
+<img width="1600" height="644" alt="WhatsApp Image 2026-04-29 at 19 22 20" src="https://github.com/user-attachments/assets/72d7422a-462e-4f2e-be60-e87b3d7dfa94" />
+</div>
+
+### Galeri Wisata
+
+Menampilkan dokumentasi visual area wisata untuk mendukung promosi.
+
+</details>
+
+---
+
+<details>
+<summary>🎟️ 4. Booking Tiket</summary>
+<img width="1600" height="772" alt="WhatsApp Image 2026-04-29 at 19 22 42" src="https://github.com/user-attachments/assets/0888a34a-a621-44e4-8cdb-3bd49ff3c651" />
+
+<br>
+
+<div align="center">
+
+</div>
+
+### Booking Tiket
+
+Memungkinkan pengunjung melakukan reservasi tiket secara online melalui website.
+
+</details>
+
+---
+
+<details>
+<summary>📋 5. Cek Booking</summary>
+<img width="1600" height="773" alt="WhatsApp Image 2026-04-29 at 19 25 02" src="https://github.com/user-attachments/assets/6500ce49-3e16-4157-8c2a-cee21d177ce7" />
+<br>
+
+<div align="center">
+
+</div>
+
+### Cek Booking
+
+Digunakan untuk memeriksa status pemesanan tiket yang telah dilakukan.
+
+</details>
+
+---
+
+<details>
+<summary>⚙️ 6. Dashboard Admin</summary>
+
+<br>
+
+<div align="center">
+<img width="1600" height="782" alt="WhatsApp Image 2026-04-29 at 19 26 43" src="https://github.com/user-attachments/assets/221d9476-ec1f-4d52-877b-c3c185e0f22a" />
+</div>
+
+### Dashboard Admin
+
+Pusat pengelolaan data website secara terintegrasi.
+
+</details>
+
+---
+
+# 🔄 Alur Sistem Website
+
+<details>
+<summary>📌 Klik untuk melihat alur sistem</summary>
+
+<br>
+
+1. Pengunjung membuka website  
+2. Sistem menampilkan halaman beranda  
+3. Pengunjung melihat informasi wisata  
+4. Pengunjung dapat mem-booking tiket  
+5. Pengunjung melihat status booking  
+6. Admin login ke dashboard  
+7. Admin mengelola website  
+
+</details>
+
+---
+
+# 🧠 Use Case
+
+<details>
+<summary>👤 Pengunjung</summary>
+
+<br>
+
+- melihat informasi wisata  
+- melihat galeri  
+- booking tiket  
+- cek status booking  
+- menghubungi pengelola  
+
+</details>
+
+<details>
+<summary>🛠️ Admin</summary>
+
+<br>
+
+- login ke dashboard  
+- mengelola data wisata  
+- mengatur galeri  
+- memantau booking  
+- memperbarui konten website  
+
+</details>
+
+---
+
+# 📲 Cara Menjalankan Project
+
+- git clone <repository-url>
+- pindahkan ke folder htdocs
+- jalankan Apache & MySQL
+- import database
+- buka localhost/project-folder
 
 ## 🧩 Struktur Sistem
 
-Aplikasi ini dibangun menggunakan arsitektur **MVC (Model-View-Controller)** menggunakan PHP Native. 
+Aplikasi ini dibangun menggunakan arsitektur *MVC (Model-View-Controller)* menggunakan PHP Native. 
 
 ### Front-End
 - HTML5  
@@ -65,29 +221,20 @@ Aplikasi ini dibangun menggunakan arsitektur **MVC (Model-View-Controller)** men
 ### Database
 - MySQL  
 
-## 🛡️ Fitur Keamanan yang Diterapkan
-
-Proyek ini tidak hanya mementingkan fungsionalitas, tetapi juga telah dibekali dengan patch keamanan untuk mencegah eksploitasi umum:
-- **Proteksi CSRF (Cross-Site Request Forgery):** Setiap pengiriman form divalidasi menggunakan token CSRF.
-- **Rate Limiting:** Mencegah serangan *Brute Force* pada halaman login admin dan *Spamming* pada halaman pengecekan riwayat E-Ticket.
-- **Validasi Input Terpusat:** Menggunakan `htmlspecialchars` untuk mencegah **XSS (Cross-Site Scripting)**, serta pembatasan karakter ketat pada input spesifik (seperti No. WhatsApp dan Nama).
-- **Akses Token E-Ticket:** Halaman E-ticket dan Riwayat Booking diamankan menggunakan kombinasi Kode Booking dan Token unik yang di-generate server, mencegah akses data pengunjung oleh pihak yang tidak bertanggung jawab.
-- **Validasi Transaksi Backend:** Harga akhir tiket dihitung ulang di server berdasarkan *rules* database (Weekday/Weekend), bukan mempercayai input POST dari klien.
-
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
 |---|---|
-| **PHP** | Logika aplikasi server-side dan API |
-| **MySQL** | Penyimpanan data relasional |
-| **HTML/CSS** | Struktur dan desain antarmuka pengguna |
-| **JavaScript / Vue.js** | Interaksi dinamis dan validasi form di sisi klien |
-| **Bootstrap** | Framework CSS untuk mempercepat pembuatan antarmuka Admin |
-| **PHPMailer** | Library untuk pengiriman email notifikasi otomatis |
-| **XAMPP / Laragon** | Local server development |
-| **InfinityFree** | Hosting deployment |
+| *PHP* | Logika aplikasi server-side dan API |
+| *MySQL* | Penyimpanan data relasional |
+| *HTML/CSS* | Struktur dan desain antarmuka pengguna |
+| *JavaScript / Vue.js* | Interaksi dinamis dan validasi form di sisi klien |
+| *Bootstrap* | Framework CSS untuk mempercepat pembuatan antarmuka Admin |
+| *PHPMailer* | Library untuk pengiriman email notifikasi otomatis |
+| *XAMPP / Laragon* | Local server development |
+| *InfinityFree* | Hosting deployment |
 
 ---
 
@@ -95,20 +242,20 @@ Proyek ini tidak hanya mementingkan fungsionalitas, tetapi juga telah dibekali d
 
 Berikut adalah langkah-langkah untuk menjalankan aplikasi ini secara lokal:
 
-1. **Clone Repository**
-   ```bash
+1. *Clone Repository*
+   bash
    git clone https://github.com/username/PA-PBW-Kelompok-C2.git
-   ```
-2. **Pindahkan ke Server Lokal**
-   Pindahkan folder project ke direktori `htdocs` (jika menggunakan XAMPP) atau `www` (jika menggunakan Laragon).
-3. **Impor Database**
-   - Buka phpMyAdmin (biasanya di `http://localhost/phpmyadmin`)
-   - Buat database baru dengan nama `bukit_fajar_lestari`
-   - Pilih menu **Import** dan unggah file `bukit_fajar_lestari.sql` yang ada di root folder project.
-4. **Konfigurasi Koneksi**
-   Pastikan konfigurasi di `config/koneksi.php` sudah sesuai dengan kredensial database lokal Anda (biasanya user: `root` dan password kosong).
-5. **Jalankan Aplikasi**
-   Buka browser dan akses URL: `http://localhost/PA-PBW-Kelompok-C2` (atau sesuai nama folder Anda).
+   
+2. *Pindahkan ke Server Lokal*
+   Pindahkan folder project ke direktori htdocs (jika menggunakan XAMPP) atau www (jika menggunakan Laragon).
+3. *Impor Database*
+   - Buka phpMyAdmin (biasanya di http://localhost/phpmyadmin)
+   - Buat database baru dengan nama bukit_fajar_lestari
+   - Pilih menu *Import* dan unggah file bukit_fajar_lestari.sql yang ada di root folder project.
+4. *Konfigurasi Koneksi*
+   Pastikan konfigurasi di config/koneksi.php sudah sesuai dengan kredensial database lokal Anda (biasanya user: root dan password kosong).
+5. *Jalankan Aplikasi*
+   Buka browser dan akses URL: http://localhost/PA-PBW-Kelompok-C2 (atau sesuai nama folder Anda).
 
 ---
 
@@ -116,54 +263,6 @@ Berikut adalah langkah-langkah untuk menjalankan aplikasi ini secara lokal:
 
 Gunakan kredensial berikut untuk mencoba fitur admin (Panel Pengelola):
 
-- **URL:** `http://localhost/.../panel-pengelola/login.php`
-- **Username:** `admin` (sesuaikan dengan isi database)
-- **Password:** `admin123` (sesuaikan dengan isi database)
-
----
-
-## 👥 Anggota Kelompok (C2)
-
-| NIM | Nama | Peran |
-|---|---|---|
-| `NIM_1` | Nama Anggota 1 | Fullstack / Backend |
-| `NIM_2` | Nama Anggota 2 | Frontend / UI/UX |
-| `NIM_3` | Nama Anggota 3 | Database / Tester |
-
-> **Catatan:** Silakan sesuaikan nama, NIM, dan peran di atas dengan anggota kelompok aslinya.
-
----
-
-## 📸 Tampilan Antarmuka (Screenshots)
-
-*(Opsional: Tambahkan screenshot aplikasi kamu di sini agar README terlihat lebih profesional)*
-
-<details>
-<summary><b>Klik untuk melihat Screenshot</b></summary>
-<br>
-
-### Halaman Utama
-*(Contoh cara memasang gambar: ganti link di bawah dengan gambar asli yang di-upload ke GitHub atau folder repo)*  
-`<img src="assets/images/screenshot-home.png" width="600">`
-
-### Panel Admin (Dashboard)
-`<img src="assets/images/screenshot-admin.png" width="600">`
-
-</details>
-
----
-
-## 📁 Struktur Direktori
-
-```text
-bukit-fajar-lestari/
-├── assets/         # File statis (CSS, JS, Images)
-├── config/         # Konfigurasi database (koneksi.php)
-├── controllers/    # Logika aplikasi (Controller - MVC)
-│   └── process/    # Pemrosesan form (POST requests)
-├── helpers/        # Fungsi bantuan & library external (PHPMailer)
-├── models/         # Interaksi dan query database (Model - MVC)
-├── pages/          # Halaman fungsional khusus (E-ticket, Riwayat)
-├── panel-pengelola/# Halaman Panel Admin (Dashboard & CRUD)
-└── views/          # Komponen UI / Tampilan utama (View - MVC)
-```
+- *URL:* http://localhost/.../panel-pengelola/login.php
+- *Username:* admin (sesuaikan dengan isi database)
+- *Password:* admin123 (sesuaikan dengan isi database)
