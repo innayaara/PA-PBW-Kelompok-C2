@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### 🌄 Bukit Fajar Lestari  
+### 🌄 BUKIT FAJAR LESTARI
 ### 🌐 Website Promosi dan Informasi Wisata
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D2E,50:1F7A5C,100:A3D977&height=190&section=header&text=Bukit%20Fajar%20Lestari&fontSize=30&fontColor=ffffff" />
