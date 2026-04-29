@@ -233,7 +233,6 @@ Aplikasi ini dibangun menggunakan arsitektur *MVC (Model-View-Controller)* mengg
 | *HTML/CSS* | Struktur dan desain antarmuka pengguna |
 | *JavaScript / Vue.js* | Interaksi dinamis dan validasi form di sisi klien |
 | *Bootstrap* | Framework CSS untuk mempercepat pembuatan antarmuka Admin |
-| *PHPMailer* | Library untuk pengiriman email notifikasi otomatis |
 | *XAMPP / Laragon* | Local server development |
 | *InfinityFree* | Hosting deployment |
 
