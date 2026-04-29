@@ -1,0 +1,236 @@
+.riwayat-page {
+  background: linear-gradient(135deg, var(--forest-dark), #102722);
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.riwayat-wrap {
+  max-width: 900px;
+}
+
+.riwayat-back-link {
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.riwayat-back-link:hover {
+  color: var(--white);
+}
+
+.riwayat-search-card,
+.riwayat-result-card {
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.riwayat-search-card {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.riwayat-card-header {
+  background: var(--forest);
+  color: var(--white);
+  padding: 28px 30px;
+}
+
+.riwayat-card-header h1,
+.riwayat-card-header h2 {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+}
+
+.riwayat-card-header p {
+  margin: 6px 0 0;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+.riwayat-card-body {
+  padding: 30px;
+}
+
+.riwayat-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.riwayat-input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: 0.3s ease;
+  background: var(--white);
+  color: var(--charcoal);
+}
+
+.riwayat-input:focus {
+  border-color: var(--dawn);
+  box-shadow: 0 0 0 3px rgba(232, 155, 58, 0.12);
+}
+
+.riwayat-btn-main {
+  background: var(--dawn);
+  color: var(--white);
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.riwayat-btn-main:hover {
+  background: var(--dawn-dark);
+}
+
+.riwayat-alert {
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 0.92rem;
+  margin-bottom: 20px;
+}
+
+.riwayat-alert-error {
+  background: #fff3f3;
+  color: #9f2d2d;
+  border: 1px solid #f4c7c7;
+}
+
+.riwayat-booking-code {
+  text-align: center;
+  background: #fff8ef;
+  border: 2px dashed #f0cf9f;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.riwayat-booking-code span {
+  display: block;
+  font-size: 0.75rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.riwayat-booking-code strong {
+  font-size: 1.6rem;
+  color: var(--forest);
+  letter-spacing: 3px;
+}
+
+.riwayat-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.riwayat-detail-item {
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.riwayat-detail-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.riwayat-detail-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--charcoal);
+}
+
+.riwayat-note-box {
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 18px;
+}
+
+.riwayat-note-text {
+  color: var(--charcoal);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.riwayat-status {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.riwayat-status-pending {
+  background: #fff3cd;
+  color: #8a6d1d;
+}
+
+.riwayat-status-confirmed {
+  background: #d1f5df;
+  color: #1f7a46;
+}
+
+.riwayat-status-cancelled {
+  background: #f8d7da;
+  color: #8b1e2d;
+}
+
+.riwayat-action-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.riwayat-btn-ticket {
+  background: var(--dawn);
+  color: var(--white);
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.riwayat-btn-ticket:hover {
+  background: var(--dawn-dark);
+  color: var(--white);
+}
+
+.riwayat-btn-outline {
+  background: transparent;
+  border: 1px solid var(--forest);
+  color: var(--forest);
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.riwayat-btn-outline:hover {
+  background: var(--forest);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .riwayat-detail-grid {
+    grid-template-columns: 1fr;
+  }
+}

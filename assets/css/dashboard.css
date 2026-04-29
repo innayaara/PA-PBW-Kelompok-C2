@@ -1,0 +1,116 @@
+.admin-dashboard-page {
+  min-height: 100vh;
+  background: var(--cream);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.dashboard-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.dashboard-title {
+  color: var(--forest);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.dashboard-subtitle {
+  color: #666;
+}
+
+.dashboard-card {
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: var(--white);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+  height: 100%;
+}
+
+.dashboard-card .card-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.dashboard-card .card-label {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  opacity: 0.85;
+  margin-bottom: 4px;
+}
+
+.dashboard-card .card-value {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.total-card {
+  background: linear-gradient(135deg, var(--forest), var(--forest-dark));
+}
+
+.pending-card {
+  background: linear-gradient(135deg, #d9a441, #b9831f);
+}
+
+.confirmed-card {
+  background: linear-gradient(135deg, #2d8a57, #1f6b42);
+}
+
+.cancelled-card {
+  background: linear-gradient(135deg, #b44752, #8d2e38);
+}
+
+.dashboard-panel {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.btn-dashboard-action {
+  background: var(--dawn);
+  color: var(--white);
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.btn-dashboard-action:hover {
+  background: var(--dawn-dark);
+  color: var(--white);
+}
+
+.btn-dashboard-outline {
+  border: 1px solid var(--forest);
+  color: var(--forest);
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.btn-dashboard-outline:hover {
+  background: var(--forest);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .dashboard-card .card-value {
+    font-size: 1.7rem;
+  }
+}
