@@ -239,29 +239,99 @@ Aplikasi ini dibangun menggunakan arsitektur *MVC (Model-View-Controller)* mengg
 
 ## 🚀 Panduan Instalasi (Localhost)
 
-Berikut adalah langkah-langkah untuk menjalankan aplikasi ini secara lokal:
+Berikut adalah langkah-langkah untuk menjalankan aplikasi **Bukit Fajar Lestari** secara lokal:
 
-1. *Clone Repository*
-   bash
-   git clone https://github.com/username/PA-PBW-Kelompok-C2.git
-   
-2. *Pindahkan ke Server Lokal*
-   Pindahkan folder project ke direktori htdocs (jika menggunakan XAMPP) atau www (jika menggunakan Laragon).
-3. *Impor Database*
-   - Buka phpMyAdmin (biasanya di http://localhost/phpmyadmin)
-   - Buat database baru dengan nama bukit_fajar_lestari
-   - Pilih menu *Import* dan unggah file bukit_fajar_lestari.sql yang ada di root folder project.
-4. *Konfigurasi Koneksi*
-   Pastikan konfigurasi di config/koneksi.php sudah sesuai dengan kredensial database lokal Anda (biasanya user: root dan password kosong).
-5. *Jalankan Aplikasi*
-   Buka browser dan akses URL: http://localhost/PA-PBW-Kelompok-C2 (atau sesuai nama folder Anda).
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/username/PA-PBW-Kelompok-C2.git
+```
+
+> Ganti `username` dengan username GitHub pemilik repository.
+
+### 2. Pindahkan Project ke Server Lokal
+
+Pindahkan folder project ke direktori server lokal:
+
+- Jika menggunakan XAMPP, pindahkan ke folder `htdocs`
+- Jika menggunakan Laragon, pindahkan ke folder `www`
+
+Contoh struktur folder:
+
+```txt
+htdocs/PA-PBW-Kelompok-C2
+```
+
+atau
+
+```txt
+www/PA-PBW-Kelompok-C2
+```
+
+### 3. Impor Database
+
+1. Buka phpMyAdmin melalui browser:
+
+```txt
+http://localhost/phpmyadmin
+```
+
+2. Buat database baru dengan nama:
+
+```txt
+bukit_fajar_lestari
+```
+
+3. Pilih database tersebut, lalu buka menu **Import**.
+4. Unggah file database:
+
+```txt
+bukit_fajar_lestari.sql
+```
+
+5. Klik **Go / Kirim** untuk menjalankan proses import.
+
+> Catatan: File `.sql` hanya digunakan untuk kebutuhan instalasi lokal. Saat website diunggah ke hosting, file `.sql` tidak boleh disimpan di folder public seperti `htdocs`.
+
+### 4. Konfigurasi Koneksi Database
+
+Sesuaikan konfigurasi database pada file:
+
+```txt
+config/koneksi.php
+```
+
+Contoh konfigurasi umum untuk localhost:
+
+```php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "bukit_fajar_lestari";
+```
+
+Jika menggunakan konfigurasi berbeda, sesuaikan dengan pengaturan database lokal masing-masing.
+
+### 5. Jalankan Aplikasi
+
+Buka browser, lalu akses:
+
+```txt
+http://localhost/PA-PBW-Kelompok-C2
+```
+
+atau sesuaikan dengan nama folder project yang digunakan.
 
 ---
 
-## 🔐 Kredensial Login Admin (Demo)
+## 🔐 Kredensial Login Admin (Demo Lokal)
 
-Gunakan kredensial berikut untuk mencoba fitur admin (Panel Pengelola):
+Gunakan kredensial berikut untuk mencoba fitur admin pada **Panel Pengelola**:
 
-- *URL:* http://localhost/.../panel-pengelola/login.php
-- *Username:* admin (sesuaikan dengan isi database)
-- *Password:* admin123 (sesuaikan dengan isi database)
+```txt
+URL      : http://localhost/PA-PBW-Kelompok-C2/panel-pengelola/login.php
+Username : admin
+Password : admin123
+```
+
+> Catatan: Kredensial di atas hanya digunakan untuk kebutuhan demo lokal. Untuk penggunaan pada hosting atau deployment, username dan password admin wajib diganti agar lebih aman.
